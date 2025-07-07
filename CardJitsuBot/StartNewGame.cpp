@@ -5,6 +5,8 @@
 using namespace std;
 
 void StartNewGame() {
+	SetForegroundWindow(consoleWindow);
+
 	Sleep(4000);
 	cout << "Starting new game." << endl;
 

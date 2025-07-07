@@ -46,14 +46,14 @@ bool CheckMatch(Mat img, Card& card) {
 		cout << "Match found for " << card.GetCardName() << " at " << matchLoc << endl;
 		cout << matchLoc.y << endl;
 		//imshow("Source Image", img_display);
-		cout << card.GetCardName() << " is at position: " << matchLoc.x << "," << matchLoc.y << endl;
+		//cout << card.GetCardName() << " is at position: " << matchLoc.x << "," << matchLoc.y << endl;
 		card.setXpos(matchLoc.x);
 		card.setYpos(matchLoc.y);
 		return true;
 	}
 	else if (card.GetCardName() == "o_0.png" && matchLoc.y > 600 && matchLoc.y <= 700) {
 		//646
-		cout << card.GetCardName() << " is at position: " << matchLoc.x << "," << matchLoc.y << endl;
+		//cout << card.GetCardName() << " is at position: " << matchLoc.x << "," << matchLoc.y << endl;
 		//cout << "Match found for OK, game ending." << endl;
 		card.setXpos(matchLoc.x);
 		card.setYpos(matchLoc.y);
