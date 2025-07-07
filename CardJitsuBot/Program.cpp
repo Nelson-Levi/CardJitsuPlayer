@@ -15,6 +15,7 @@
 #include "SelectCard.h"
 #include "CreateCardsVector.h"
 #include "CreateMatchedCardsVector.h"
+#include "Globals.h"
 
 using namespace cv;
 using namespace std;

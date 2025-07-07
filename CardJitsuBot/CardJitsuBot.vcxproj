@@ -132,6 +132,7 @@
     <ClInclude Include="Card.h" />
     <ClInclude Include="CreateCardsVector.h" />
     <ClInclude Include="CreateMatchedCardsVector.h" />
+    <ClInclude Include="Globals.h" />
     <ClInclude Include="FindBestCard.h" />
     <ClInclude Include="FullscreenCapture.h" />
     <ClInclude Include="CheckMatch.h" />
